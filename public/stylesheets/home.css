@@ -1,0 +1,34 @@
+.header-img {
+    background-image: url(http://www.lamudi.com.ph/journal/wp-content/uploads/2014/03/straw-bale-house-pakistan-paksbab-sustainable-design-small.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+}
+
+section {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.pointers {
+    display: flex; 
+    justify-content: center;
+    background: #eee;   
+}
+
+.pointers div {
+    width: 25%;
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info div {
+    width: 50%;
+    padding: 40px;
+}
+

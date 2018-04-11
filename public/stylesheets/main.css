@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items li a.active {
+    color: orange;
+}
+
+.nav-logo {
+    background-image: url(/img/iConstruct.png);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.nav-items {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.nav-items li a:hover,
+.nav-items li a:active {
+    color: orange
+}
+
