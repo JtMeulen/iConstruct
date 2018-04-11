@@ -56,14 +56,35 @@
         <i class="fas fa-comments fa-10x"></i>
     </section>
 
+    <footer>
+        <div class="footer-main">
+            <div class="footer-contact">
+                <p><em><strong>iConstruct MG</strong></em></p>
+                <p>Straatnaam</p>
+                <p>Postcode</p>
+                <p>Amsterdam</p>
+                <p>telefoonnummer</p>
+                <p>email@email.nl</p>
+            </div>
+
+            <div class="footer-links">
+                <p><a href="/home">Home</a></p>
+                <p><a href="/home">Over Ons</a></p>
+                <p><a href="/home">Vakwerk</a></p>
+                <p><a href="/home">Contact</a></p>
+            </div>
+        </div>
+
+        <p class="footer-credits">Website by: <a target="_blank" href="http://www.joeytermeulen.com">Joey ter Meulen</a></p>
+
+    </footer>
+
     <script>
         $(window).bind('scroll', function(){
             if ($(window).scrollTop() > 250){
                 $("nav").addClass('nav-fixed');
-                // $("#nav-ph").addClass("nav-ph");
             } else {
                 $("nav").removeClass('nav-fixed');
-                // $("#nav-ph").removeClass("nav-ph");
             }
         })
     </script>
