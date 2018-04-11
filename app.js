@@ -12,6 +12,6 @@ app.get("/home", function(req, res){
     res.render("home");
 });
 
-app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("SERVER RUNNING");
+app.listen(process.env.PORT || 3000, process.env.IP, function(){
+    console.log("SERVER RUNNING", process.env.PORT);
 });
