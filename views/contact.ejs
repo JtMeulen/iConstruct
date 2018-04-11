@@ -8,7 +8,7 @@
     <title>iConstruct</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/stylesheets/main.css">
-    <link rel="stylesheet" href="/stylesheets/home.css">
+    <link rel="stylesheet" href="/stylesheets/contact.css">
     <script src="./scripts/jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -16,46 +16,42 @@
     <nav>
         <div class="nav-logo"></div>
         <ul class="nav-items">
-            <li><a href="/home" class="active">Home</a></li>
+            <li><a href="/home">Home</a></li>
             <li><a href="/#">Over Ons</a></li>
             <li><a href="/#">Vakwerk</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact" class="active">Contact</a></li>
         </ul>
     </nav>
 
-    <div class="header-img"></div>
+    <h2>Neem contact met ons op!</h2>
+    <hr>
 
-    <section class="intro">
-        <h1>iConstruct, voor iedere klus een Pool</h1>
-        <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, inventore et, voluptas, molestias tempora nobis itaque temporibus eos perferendis suscipit accusamus minus dolorum culpa totam aperiam dolore accusantium repellendus repellat?</p>
-    </section>
+    <section>        
+        <div class="contact-info">
+            <h4>Vrijblijvende offerte</h4>
+            <p>Wilt u meer weten of een project bespreken? Direct een offerte aanvragen? Neem contact met ons op! U kunt ons een email sturen of nevenstaand formulier invullen. 
+                Dan nemen wij snel contact met u op.</p>
+            
+            <h4>Adres</h4>
+            <p>iConstruct MG</p>
+            <p>Adresstraat 4</p>
+            <p>1234 AB Amsterdam</p>
+            <p>Telefoon: 0612346798</p>
+            <a href="mailto:info@iconstruct.com">info@iconstruct.com</a>
 
-    <section class="pointers">
-        <div>
-            <i class="fas fa-home fa-3x"></i>
-            <h3>Hard werken</h3>
-            <p>Gegarandeerd hard werken. Onze werkers hebben de constante fear om terug te moeten naar siberië</p>
         </div>
-        <div>
-            <i class="fas fa-globe fa-3x"></i>
-            <h3>Spreekt Russisch</h3>
-            <p>Мы веселые мальчики, и мы можем построить все, что вы хотите! От фаллоимитаторов, до домов для ваших неряшливых мам</p>
-        </div>
-        <div>
-            <i class="fas fa-clock fa-3x"></i>
-            <h3>Snelle service</h3>
-            <p>Zelfde dag levering. En anders ergens anders volgende week</p>
-        </div>        
-    </section>
 
-    <section class="info">
-        <div>
-            <h1>Altijd een offerte binnen 24uur!</h1>
-            <hr>
-            <p>Ons doel is om snel en proffesioneel te reageren op je kut mailtje. Offertes worden met passie voor u gemaakt! Bijna de laagste prijs in west-Osdorp. Neem contact met ons op via 0123456789 of via <a href="mailto:info@iconstruct.nl">info@iconstruct.nl</a></p>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" placeholder="Naam" name="name">
+                <input type="text" placeholder="Bedrijf" name="bedrijf">
+                <input type="text" placeholder="Adres" name="adres">
+                <input type="email" placeholder="Email" name="email">
+                <input type="text" placeholder="Telefoon" name="telefoon">
+                <textarea placeholder="Bericht" name="bericht" rows="6"></textarea>
+                <button type="submit">Verstuur</button>
+            </form>
         </div>
-        <i class="fas fa-comments fa-10x"></i>
     </section>
 
     <footer>

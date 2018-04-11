@@ -1,0 +1,48 @@
+section {
+    padding: 50px 150px 150px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #e25303;
+    width: 400px;
+}
+
+p, a {
+    margin: 3px 0;
+    padding: 0;
+}
+
+.contact-info {
+    width: 400px;
+}
+
+section div {
+    margin: 0 60px;
+}
+
+.contact-form {
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    width: 400px;
+}
+
+form {    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+input, textarea, button {
+    margin: 3px 0;
+    padding: 3px 0;
+    font: inherit;
+    font-size: 0.8em;
+}

@@ -8,7 +8,7 @@
 
 section {
     text-align: center;
-    padding: 50px 100px;
+    padding: 50px 200px;
 }
 
 .pointers {
@@ -23,6 +23,10 @@ section {
     color: #e25303;
 }
 
+hr {
+    border: 1px solid #e25303;
+    width: 400px;
+}
 .pointers div p, 
 .pointers div h3 {
     color: black;
