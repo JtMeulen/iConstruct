@@ -23,6 +23,7 @@ section {
 .profile-images img {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
 }
 
 .profile-images p {
