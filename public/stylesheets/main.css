@@ -27,6 +27,7 @@ nav {
 
 .nav-items li a.active {
     color: #e25303;
+    text-decoration: underline;
 }
 
 .nav-logo {
@@ -60,6 +61,28 @@ nav {
 .nav-items li a:active {
     color: #e25303;
 }
+
+.language-items {
+    display: flex;
+    height: 100%;
+}
+
+.language-items a {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.15s linear;
+}
+
+.language-items a:hover,
+.language-items a:active {
+    box-shadow: 0 0 0 2px #e25303;
+}
+
+#dutch {background-image: url(/img/dutch.png)}
+#english {background-image: url(/img/english.png)}
 
 footer {
     font-size: 0.6em;

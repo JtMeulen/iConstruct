@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/iConstruct.png">
+    <title>iConstruct - Contact</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/contact.css">
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo"></div>
+        <ul class="nav-items">
+            <div class="language-items">
+                <a href="/contact" id="dutch"></a>
+                <a href="/contact-en" id="english"></a>
+            </div>
+            <li><a href="/home-en" class="active">Home</a></li>
+            <li><a href="/about-us-en">About Us</a></li>
+            <li><a href="/craftmanship-en">Craftmanship</a></li>
+            <li><a href="/contact-en">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2>Contact us!</h2>
+    <hr>
+
+    <section>        
+        <div class="contact-info">
+            <h4>Price quote</h4>
+            <p>Would you like to know more or discuss a project? Request a quote directly? Contact us! You can send us an email or fill in the form below.
+                 Then we will contact you quickly.</p>
+            
+            <h4>Adres</h4>
+            <p>iConstruct MG</p>
+            <p>Adresstraat 4</p>
+            <p>1234 AB Amsterdam</p>
+            <p>Phonenumber: 0612346798</p>
+            <a href="mailto:info@iconstruct.com">info@iconstruct.com</a>
+
+        </div>
+
+        <div class="contact-form">
+            <form action="#">
+                <input required type="text" placeholder="Name" name="name">
+                <input type="text" placeholder="Company" name="bedrijf">
+                <input required type="text" placeholder="Address" name="adres">
+                <input required type="email" placeholder="Email" name="email">
+                <input required type="text" placeholder="Phonenumber" name="telefoon">
+                <textarea required placeholder="Bericht" name="Message" rows="6"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-contact">
+                <p><em><strong>iConstruct MG</strong></em></p>
+                <p>Straatnaam</p>
+                <p>Postcode</p>
+                <p>Amsterdam</p>
+                <p>telefoonnummer</p>
+                <p>email@email.nl</p>
+            </div>
+
+            <div class="footer-links">
+                <p><a href="/home">Home</a></p>
+                <p><a href="/over-ons">Over Ons</a></p>
+                <p><a href="/vakwerk">Vakwerk</a></p>
+                <p><a href="/contact">Contact</a></p>
+            </div>
+        </div>
+
+        <p class="footer-credits">Website by: <a target="_blank" href="http://www.joeytermeulen.com">Joey ter Meulen</a></p>
+
+    </footer>
+
+    <script>
+        $(window).bind('scroll', function(){
+            if ($(window).scrollTop() > 250){
+                $("nav").addClass('nav-fixed');
+            } else {
+                $("nav").removeClass('nav-fixed');
+            }
+        })
+    </script>
+</body>
+</html>

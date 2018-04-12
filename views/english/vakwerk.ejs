@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/iConstruct.png">
+    <title>iConstruct - Vakwerk</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/vakwerk.css">
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo"></div>
+        <ul class="nav-items">
+            <div class="language-items">
+                <a href="/vakwerk" id="dutch"></a>
+                <a href="/craftmanship-en" id="english"></a>
+            </div>
+            <li><a href="/home-en" class="active">Home</a></li>
+            <li><a href="/about-us-en">About Us</a></li>
+            <li><a href="/craftmanship-en">Craftmanship</a></li>
+            <li><a href="/contact-en">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2>Our crafts</h2>
+    <hr>
+
+    <section>
+        <div class="vakwerk-item">
+            <h3>Bricklaying</h3>
+            <p>Customized masonry. Green, blue and purple cement is what we work with.</p>
+            <img src="http://www.billfrymire.com/gallery/weblarge/carpenter-construction-roof-build.jpg" alt="">
+        </div>
+        <div class="vakwerk-item">
+            <h3>Expansion</h3>
+            <p>A balcony there? Maybe a nice garden. Swimming pool?</p>
+            <img src="https://www.3ders.org/images2016/how-3d-printing-helped-make-this-stunning-luxury-pool-a-reality-1.jpg" alt="">
+        </div>
+        <div class="vakwerk-item">
+            <h3>Wrecking</h3>
+            <p>If we are not satisfied with your home, we will demolish it for free!</p>
+            <img src="http://imgur.com/YO1RIOZ.jpg" alt="">
+        </div>
+        <div class="vakwerk-item">
+            <h3>Doomsday prepping</h3>
+            <p>When the Nazis revolt again, we have the perfect solution</p>
+            <img src="https://c1.staticflickr.com/7/6087/6145269768_e4ac9cc532_b.jpg" alt="">
+        </div>
+        <div class="vakwerk-item">
+            <h3>Barn/Bunker</h3>
+            <p>A handy shed to do your own work. Or who knows, can you hide someone in here..?</p>
+            <img src="https://img00.deviantart.net/acce/i/2004/291/4/b/creepy_shed_by_electricjonny.jpg" alt="">
+        </div>    
+    </section>
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-contact">
+                <p><em><strong>iConstruct MG</strong></em></p>
+                <p>Straatnaam</p>
+                <p>Postcode</p>
+                <p>Amsterdam</p>
+                <p>telefoonnummer</p>
+                <p>email@email.nl</p>
+            </div>
+
+            <div class="footer-links">
+                <p><a href="/home">Home</a></p>
+                <p><a href="/over-ons">Over Ons</a></p>
+                <p><a href="/vakwerk">Vakwerk</a></p>
+                <p><a href="/contact">Contact</a></p>
+            </div>
+        </div>
+
+        <p class="footer-credits">Website by: <a target="_blank" href="http://www.joeytermeulen.com">Joey ter Meulen</a></p>
+
+    </footer>
+
+    <script>
+        $(window).bind('scroll', function(){
+            if ($(window).scrollTop() > 250){
+                $("nav").addClass('nav-fixed');
+            } else {
+                $("nav").removeClass('nav-fixed');
+            }
+        })
+    </script>
+</body>
+</html>
