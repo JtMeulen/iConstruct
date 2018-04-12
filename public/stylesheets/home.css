@@ -23,6 +23,10 @@ section {
     color: #e25303;
 }
 
+.intro h1 {
+    font-size: 40px;
+}
+
 hr {
     border: 1px solid #e25303;
     width: 400px;
