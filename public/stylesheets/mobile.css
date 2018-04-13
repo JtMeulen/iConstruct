@@ -1,0 +1,137 @@
+@media screen and (max-device-width: 750px) {
+    hr {
+        width: 70vw;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    .intro {
+        padding: 40px;
+    }
+
+    .intro h1 {
+        margin-top: 0;
+    }
+
+    .info hr {
+        width: 70%;
+    }
+
+    .info div {
+        width: 100%;
+    }
+
+    .pointers {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .pointers div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fa-10x {
+        display: none;
+    }
+
+    .footer-main {
+        width: 170px;
+        padding: 0 0 5px 5px;
+    }
+
+    .footer-credits {
+        margin: 0;
+        padding: 0 5px 5px 0;
+    }
+
+    nav {
+        height: 40px;
+        
+    }
+
+    .nav-fixed .nav-logo,
+    .nav-logo {
+        width: 65px;
+        height: 35px;
+        margin-left: 20px; 
+    }
+
+    .burger {
+        display: flex;
+        margin-right: 20px;
+        z-index: 500;
+    }
+    
+    .nav-items {
+        z-index: 200;
+        transition: 0.4s ease-out;
+        transform: translateY(-300px);
+        position: absolute;
+        display: inline;
+        top: 40px;
+        right: 0;
+        padding: 20px;
+        background-color: white;
+        text-align: right;
+    }
+
+    .nav-items li {
+        margin-top: 25px;
+    }
+
+    .menu-show {
+        transform: translateY(0);
+    }
+
+    .language-items {
+        justify-content: flex-end;
+    }
+
+    .header-img {
+        height: 300px;
+    }
+
+    /* ABOUT US */
+
+    h2 {
+        padding: 80px 20px 0 20px;
+    }
+    .about-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-info {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .profile-images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-images p {
+        display: none;
+    }
+
+    .profile-images img{
+        width: 30%;
+        height: 30%;
+        margin: 10px;
+    }
+
+    .vakwerk-item {
+        width: 80%;
+    }
+
+    /* CONTACT */
+    .contact-info,
+    .contact-form {
+        margin: 20px;
+    }
+}

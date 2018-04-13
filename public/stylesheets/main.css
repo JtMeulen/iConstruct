@@ -12,6 +12,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    top: 0;
     transition: 0.15s linear;
 }
 
@@ -62,6 +63,28 @@ nav {
     color: #e25303;
 }
 
+.burger {
+    border: 1px solid #e25303;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 80%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #e25303;
+    margin: 2px 0;
+}
+
 .language-items {
     display: flex;
     height: 100%;
@@ -98,8 +121,7 @@ footer {
     padding: 20px 0 20px 60px;
     display: flex;
     flex-wrap: wrap;  
-    justify-content: space-between;  
-
+    justify-content: space-between; 
 }
 
 footer a {

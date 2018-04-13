@@ -9,12 +9,19 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/stylesheets/main.css">
     <link rel="stylesheet" href="/stylesheets/contact.css">
+    <link rel="stylesheet" href="/stylesheets/mobile.css">
     <script src="./scripts/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 
     <nav>
         <div class="nav-logo"></div>
+
+        <div class="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         
         <ul class="nav-items">
             <div class="language-items">
@@ -82,14 +89,6 @@
 
     </footer>
 
-    <script>
-        $(window).bind('scroll', function(){
-            if ($(window).scrollTop() > 250){
-                $("nav").addClass('nav-fixed');
-            } else {
-                $("nav").removeClass('nav-fixed');
-            }
-        })
-    </script>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>

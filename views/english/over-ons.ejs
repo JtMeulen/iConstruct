@@ -9,12 +9,20 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/stylesheets/main.css">
     <link rel="stylesheet" href="/stylesheets/over-ons.css">
+    <link rel="stylesheet" href="/stylesheets/mobile.css">
     <script src="./scripts/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 
     <nav>
         <div class="nav-logo"></div>
+        
+        <div class="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
         <ul class="nav-items">
             <div class="language-items">
                 <a href="/over-ons" id="dutch"></a>
@@ -30,7 +38,7 @@
     <h2>Wie zijn wij</h2>
     <hr>
 
-    <section>
+    <section class="about-section">
         <div class="about-info">
                 <h3>Two boys with a vision</h3>
                 <p>
@@ -77,14 +85,6 @@
 
     </footer>
 
-    <script>
-        $(window).bind('scroll', function(){
-            if ($(window).scrollTop() > 250){
-                $("nav").addClass('nav-fixed');
-            } else {
-                $("nav").removeClass('nav-fixed');
-            }
-        })
-    </script>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
