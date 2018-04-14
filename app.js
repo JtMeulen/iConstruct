@@ -13,9 +13,9 @@ app.get("/home", function (req, res) {
     res.render("dutch/home");
 });
 
-app.get("/over-ons", function (req, res) {
-    res.render("dutch/over-ons");
-});
+// app.get("/over-ons", function (req, res) {
+//     res.render("dutch/over-ons");
+// });
 
 app.get("/vakwerk", function (req, res) {
     res.render("dutch/vakwerk");
@@ -30,9 +30,9 @@ app.get("/home-en", function (req, res) {
     res.render("english/home");
 });
 
-app.get("/about-us-en", function (req, res) {
-    res.render("english/over-ons");
-});
+// app.get("/about-us-en", function (req, res) {
+//     res.render("english/over-ons");
+// });
 
 app.get("/craftmanship-en", function (req, res) {
     res.render("english/vakwerk");
@@ -48,6 +48,6 @@ app.use(function (req, res, next) {
     res.status(404).render("error");
 });
 
-app.listen(process.env.PORT || 3000, process.env.IP, function () {
+app.listen(process.env.PORT || 80, process.env.IP, function () {
     console.log("SERVER RUNNING", process.env.PORT);
 });

@@ -38,8 +38,12 @@
     }
 
     .footer-main {
-        width: 170px;
+        width: 200px;
         padding: 0 0 5px 5px;
+    }
+
+    .footer-links {
+        display: none;
     }
 
     .footer-credits {
