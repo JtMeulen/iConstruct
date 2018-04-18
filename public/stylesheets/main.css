@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Verdana
+    font-family: Verdana;
 }
 
 nav {
@@ -133,4 +133,12 @@ footer a {
     position: relative;
     margin: 0;
     padding: 0 20px 20px 0;
+}
+
+.social-media a:first-of-type {
+    margin-right: 5px;
+}
+.social-media a:hover,
+.social-media a:active {
+    color: #ccc;
 }
