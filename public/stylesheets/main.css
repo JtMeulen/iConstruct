@@ -107,7 +107,8 @@ nav {
 #dutch {background-image: url(/img/dutch.png)}
 #english {background-image: url(/img/english.png)}
 
-footer {
+footer { 
+    margin-top: 75px;
     font-size: 0.6em;
     color: white;
     background: #e25303;
